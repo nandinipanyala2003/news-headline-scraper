@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Screenshots</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f1f5f9;
+            margin: 0;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .screenshots {
+            padding: 40px 20px;
+        }
+
+        .screenshots h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 28px;
+            color: #38bdf8;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 15px;
+            border-radius: 15px;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .filename {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #1e293b;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    📸 News Scraper Project Screenshots 🚀
+</header>
+
+<section class="screenshots">
+    <h2>📂 Project Output Preview</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>💻 Command Prompt Output</h3>
+            <img src="screenshots/01_command_Prompt_Output.png" onclick="window.open(this.src)">
+            <div class="filename">01_command_Prompt_Output.png</div>
+        </div>
+
+        <div class="card">
+            <h3>📄 CSV Output</h3>
+            <img src="screenshots/02_CSV_Output_Headlines.png" onclick="window.open(this.src)">
+            <div class="filename">02_CSV_Output_Headlines.png</div>
+        </div>
+
+        <div class="card">
+            <h3>🗂️ JSON Output</h3>
+            <img src="screenshots/03_JSON_Output_Headlines.png" onclick="window.open(this.src)">
+            <div class="filename">03_JSON_Output_Headlines.png</div>
+        </div>
+
+        <div class="card">
+            <h3>📁 Folder Structure</h3>
+            <img src="screenshots/04_Project_Folder_Structure.png" onclick="window.open(this.src)">
+            <div class="filename">04_Project_Folder_Structure.png</div>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    ✨ Developed by Nandini Panyala 💙
+</footer>
+
+</body>
+</html>
